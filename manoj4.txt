@@ -1,0 +1,137 @@
+Enter password: *****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 23
+Server version: 5.5.62 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use manoj;
+Database changed
+mysql> select * from students;
++-------+---------+------------+
+| st_id | st_name | st_ph_no   |
++-------+---------+------------+
+|   102 | mohan   | 97676...   |
+|   103 | lucky   | 927837.... |
+|   104 | golu    | 6759378... |
+|   102 | raju    | 987658...  |
+|   103 | monu    | 76584...   |
+|   102 | golu    | 87696...   |
+|   103 | sita    | 78670....  |
+|   104 | ghon    | 6578688... |
++-------+---------+------------+
+8 rows in set (0.00 sec)
+
+mysql> select * from students where st_name like 'm%';
++-------+---------+----------+
+| st_id | st_name | st_ph_no |
++-------+---------+----------+
+|   102 | mohan   | 97676... |
+|   103 | monu    | 76584... |
++-------+---------+----------+
+2 rows in set (0.00 sec)
+
+mysql> select * from students where st-name like '%u';
+ERROR 1054 (42S22): Unknown column 'st' in 'where clause'
+mysql>  select * from students where st_name like '%u';
++-------+---------+------------+
+| st_id | st_name | st_ph_no   |
++-------+---------+------------+
+|   104 | golu    | 6759378... |
+|   102 | raju    | 987658...  |
+|   103 | monu    | 76584...   |
+|   102 | golu    | 87696...   |
++-------+---------+------------+
+4 rows in set (0.00 sec)
+
+mysql> select * from students where st_name like 'on';
+Empty set (0.00 sec)
+
+mysql>  select * from students where st_name like '%on%';
++-------+---------+------------+
+| st_id | st_name | st_ph_no   |
++-------+---------+------------+
+|   103 | monu    | 76584...   |
+|   104 | ghon    | 6578688... |
++-------+---------+------------+
+2 rows in set (0.00 sec)
+
+mysql> select * from students order by st_id;
++-------+---------+------------+
+| st_id | st_name | st_ph_no   |
++-------+---------+------------+
+|   102 | mohan   | 97676...   |
+|   102 | raju    | 987658...  |
+|   102 | golu    | 87696...   |
+|   103 | lucky   | 927837.... |
+|   103 | monu    | 76584...   |
+|   103 | sita    | 78670....  |
+|   104 | golu    | 6759378... |
+|   104 | ghon    | 6578688... |
++-------+---------+------------+
+8 rows in set (0.00 sec)
+
+mysql> select * from students order by st_ph_no asc;
++-------+---------+------------+
+| st_id | st_name | st_ph_no   |
++-------+---------+------------+
+|   104 | ghon    | 6578688... |
+|   104 | golu    | 6759378... |
+|   103 | monu    | 76584...   |
+|   103 | sita    | 78670....  |
+|   102 | golu    | 87696...   |
+|   103 | lucky   | 927837.... |
+|   102 | mohan   | 97676...   |
+|   102 | raju    | 987658...  |
++-------+---------+------------+
+8 rows in set (0.00 sec)
+
+mysql> select * from students order by st_ph_no des;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'des' at line 1
+mysql>  select * from students order by st_ph_no desc;
++-------+---------+------------+
+| st_id | st_name | st_ph_no   |
++-------+---------+------------+
+|   102 | raju    | 987658...  |
+|   102 | mohan   | 97676...   |
+|   103 | lucky   | 927837.... |
+|   102 | golu    | 87696...   |
+|   103 | sita    | 78670....  |
+|   103 | monu    | 76584...   |
+|   104 | golu    | 6759378... |
+|   104 | ghon    | 6578688... |
++-------+---------+------------+
+8 rows in set (0.00 sec)
+Database changed
+mysql> select * from students;
++-------+---------+------------+
+| st_id | st_name | st_ph_no   |
++-------+---------+------------+
+|   102 | mohan   | 97676...   |
+|   103 | lucky   | 927837.... |
+|   104 | golu    | 6759378... |
+|   102 | raju    | 987658...  |
+|   103 | monu    | 76584...   |
+|   102 | golu    | 87696...   |
+|   103 | sita    | 78670....  |
+|   104 | ghon    | 6578688... |
++-------+---------+------------+
+8 rows in set (0.00 sec)
+
+mysql> select st_id from students where st_id>102;
++-------+
+| st_id |
++-------+
+|   103 |
+|   104 |
+|   103 |
+|   103 |
+|   104 |
++-------+
+5 rows in set (0.00 sec)

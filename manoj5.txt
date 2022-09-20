@@ -1,0 +1,93 @@
+Enter password: *****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 28
+Server version: 5.5.62 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use manoj;
+Database changed
+mysql> select * from students;
++-------+---------+------------+
+| st_id | st_name | st_ph_no   |
++-------+---------+------------+
+|   102 | mohan   | 97676...   |
+|   103 | lucky   | 927837.... |
+|   104 | golu    | 6759378... |
+|   102 | raju    | 987658...  |
+|   103 | monu    | 76584...   |
+|   102 | golu    | 87696...   |
+|   103 | sita    | 78670....  |
+|   104 | ghon    | 6578688... |
++-------+---------+------------+
+8 rows in set (0.00 sec)
+
+mysql> select st_name from students;
++---------+
+| st_name |
++---------+
+| mohan   |
+| lucky   |
+| golu    |
+| raju    |
+| monu    |
+| golu    |
+| sita    |
+| ghon    |
++---------+
+8 rows in set (0.00 sec)
+
+mysql> select st_id from students;
++-------+
+| st_id |
++-------+
+|   102 |
+|   103 |
+|   104 |
+|   102 |
+|   103 |
+|   102 |
+|   103 |
+|   104 |
++-------+
+8 rows in set (0.00 sec)
+
+mysql> select max(st_id) from students;
++------------+
+| max(st_id) |
++------------+
+|        104 |
++------------+
+1 row in set (0.00 sec)
+
+mysql> select min(st_id)from students;
++------------+
+| min(st_id) |
++------------+
+|        102 |
++------------+
+1 row in set (0.00 sec)
+
+mysql> select count(st_id)from students;
++--------------+
+| count(st_id) |
++--------------+
+|            8 |
++--------------+
+1 row in set (0.00 sec)
+
+mysql> select average(st_id)from students;
+ERROR 1305 (42000): FUNCTION manoj.average does not exist
+mysql>  select sum(st_id)as total_sum from students;
++-----------+
+| total_sum |
++-----------+
+|       823 |
++-----------+
+1 row in set (0.00 sec)
