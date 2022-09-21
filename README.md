@@ -4,7 +4,7 @@ ddl commands-create,alter,drop
 
 ## experiment:2
 ddl commands with constraints-primary key,foreign key(https://github.com/Manoj-841/dbms/blob/main/primarykey.txt)
-                                                     (
+                                                     (https://github.com/Manoj-841/dbms/blob/main/forigen%20key.txt)
 
 ## experiment:3
 dml commands-(insert,select)-(https://github.com/Manoj-841/dbms/blob/main/manoj3.txt)
