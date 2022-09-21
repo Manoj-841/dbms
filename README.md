@@ -27,3 +27,14 @@ groupby,orderby,having(https://github.com/Manoj-841/dbms/blob/main/groupby%2Chav
 
 ## experiment:10
 view,index,sequence(https://github.com/Manoj-841/dbms/blob/main/manoj10.txt)
+
+## experiment:11
+
+
+## experiment:12
+simple programming exercises using repeat,while-(
+
+
+## experiment:13
+tcl commands-rollback,commit,savepoint(
+
