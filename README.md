@@ -6,8 +6,8 @@ ddl commands-create,alter,drop
 ddl commands with constraints-primary key,foreign key
 
 ## experiment:3
-dml commands-insert,select,update,delete-(
-
+dml commands-(insert,select)-(https://github.com/Manoj-841/dbms/blob/main/manoj3.txt)
+             
 ## experiment:4
 where,pattern matching
 
