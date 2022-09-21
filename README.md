@@ -23,3 +23,7 @@ groupby,orderby,having(https://github.com/Manoj-841/dbms/blob/main/groupby%2Chav
 
 ## experiment:8
 
+## experiment:9
+
+## experiment:10
+view,index,sequence(https://github.com/Manoj-841/dbms/blob/main/manoj10.txt)
