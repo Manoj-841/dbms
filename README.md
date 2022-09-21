@@ -15,6 +15,6 @@ where,pattern matching-(https://github.com/Manoj-841/dbms/blob/main/manoj4.txt)
 between in aggregate function
 
 ## experiment:6
-groupby,orderby,having
+groupby,orderby,having(https://github.com/Manoj-841/dbms/blob/main/groupby%2Chaving%2Corderby.txt)
 
 experimrnt:7
