@@ -32,7 +32,7 @@ view,index,sequence(https://github.com/Manoj-841/dbms/blob/main/manoj10.txt)
 
 
 ## experiment:12
-simple programming exercises using repeat,while-(
+simple programming exercises using repeat,while-(https://github.com/Manoj-841/dbms/blob/main/manoj12.txt)
 
 
 ## experiment:13
