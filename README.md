@@ -59,6 +59,7 @@ Dcl commands-grant,revoke(https://github.com/Manoj-841/dbms/blob/main/manoj14.tx
 ## experiment:21
 
 ## experiment:22
+sql queries implementation for general hospital(https://github.com/Manoj-841/dbms/blob/main/general%20hospital)
 
 ## experiment:23
 
