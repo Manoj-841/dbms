@@ -57,7 +57,7 @@ Dcl commands-grant,revoke(https://github.com/Manoj-841/dbms/blob/main/manoj14.tx
 ## experiment:20
 
 ## experiment:21
-
+sql queries implementation for book publishing(https://github.com/Manoj-841/dbms/blob/main/book%20publisher)
 ## experiment:22
 sql queries implementation for general hospital(https://github.com/Manoj-841/dbms/blob/main/general%20hospital)
 
