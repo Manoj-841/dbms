@@ -25,7 +25,7 @@ groupby,orderby,having(https://github.com/Manoj-841/dbms/blob/main/groupby%2Chav
 subquery and correlated query(https://github.com/Manoj-841/dbms/blob/main/manoj8)
 
 ## experiment:9
-joints-equijoin,innerjoin,outerjoin(
+joints-equijoin,innerjoin,outerjoin(https://github.com/Manoj-841/dbms/blob/main/manoj9)
 
 ## experiment:10
 view,index,sequence(https://github.com/Manoj-841/dbms/blob/main/manoj10.txt)
