@@ -41,5 +41,5 @@ simple programming exercises using repeat,while-(https://github.com/Manoj-841/db
 tcl commands-rollback,commit,savepoint(https://github.com/Manoj-841/dbms/blob/main/manoj13.txt)
 
 ## experiment:14
-Dcl commands-grant,revoke(
+Dcl commands-grant,revoke(https://github.com/Manoj-841/dbms/blob/main/manoj14.txt)
 
