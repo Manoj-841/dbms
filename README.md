@@ -63,3 +63,4 @@ Dcl commands-grant,revoke(https://github.com/Manoj-841/dbms/blob/main/manoj14.tx
 ## experiment:23
 
 ## experiment:24
+sql queries implementation for student progress monitoring system(https://github.com/Manoj-841/dbms/blob/main/student%20progress.txt)
