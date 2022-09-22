@@ -65,7 +65,7 @@ sql queries implementation for book publishing(https://github.com/Manoj-841/dbms
 sql queries implementation for general hospital(https://github.com/Manoj-841/dbms/blob/main/general%20hospital)
 
 ## experiment:24
-sql queries implementation for car rental company(
+sql queries implementation for car rental company(https://github.com/Manoj-841/dbms/blob/main/experiment%2024.txt)
 
 ## experiment:25
 sql queries implementation for student progress monitoring system(https://github.com/Manoj-841/dbms/blob/main/student%20progress.txt)
