@@ -43,3 +43,23 @@ tcl commands-rollback,commit,savepoint(https://github.com/Manoj-841/dbms/blob/ma
 ## experiment:14
 Dcl commands-grant,revoke(https://github.com/Manoj-841/dbms/blob/main/manoj14.txt)
 
+## experiment:15
+
+## experiment:16
+
+
+## experiment:17
+
+## expeiment:18
+
+## experiment:19
+
+## experiment:20
+
+## experiment:21
+
+## experiment:22
+
+## experiment:23
+
+## experiment:24
