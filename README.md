@@ -49,7 +49,7 @@ high level programming extensions-procedures(https://github.com/Manoj-841/dbms/b
 high level programming extensions-function(
 
 ## experiment:17
-string functons-repeat,replicate(
+string functons-repeat,replicate(https://github.com/Manoj-841/dbms/blob/main/REPEAT.txt)
 ## expeiment:18
 tcl commands-rollback,commit(https://github.com/Manoj-841/dbms/blob/main/manoj13.txt)
 
