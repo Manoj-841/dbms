@@ -54,7 +54,7 @@ string functons-repeat,replicate(
 tcl commands-rollback,commit(https://github.com/Manoj-841/dbms/blob/main/manoj13.txt)
 
 ## experiment:19
-database connectivity( 
+database connectivity( https://github.com/Manoj-841/dbms/blob/main/my%20sql%20connectivity.txt)
 ## experiment:20
 sql implementation of hrm database( https://github.com/Manoj-841/dbms/blob/main/experiment%2019.txt)
 ## experiment:21
