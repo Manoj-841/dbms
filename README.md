@@ -31,7 +31,7 @@ joints-equijoin,innerjoin,outerjoin(https://github.com/Manoj-841/dbms/blob/main/
 view,index,sequence(https://github.com/Manoj-841/dbms/blob/main/manoj10.txt)
 
 ## experiment:11
-
+simple programming using case,if,iterate,leave,loop(
 
 ## experiment:12
 simple programming exercises using repeat,while-(https://github.com/Manoj-841/dbms/blob/main/manoj12.txt)
@@ -44,20 +44,21 @@ tcl commands-rollback,commit,savepoint(https://github.com/Manoj-841/dbms/blob/ma
 Dcl commands-grant,revoke(https://github.com/Manoj-841/dbms/blob/main/manoj14.txt)
 
 ## experiment:15
-
+high level programming extensions-procedures(
 ## experiment:16
-
+high level programming extensions-function(
 
 ## experiment:17
-
+string functons-repeat,replicate(
 ## expeiment:18
+tcl commands-rollback,commit(https://github.com/Manoj-841/dbms/blob/main/manoj13.txt)
 
 ## experiment:19
- https://github.com/Manoj-841/dbms/blob/main/experiment%2019.txt
+database connectivity( 
 ## experiment:20
-
+sql implementation of hrm database( https://github.com/Manoj-841/dbms/blob/main/experiment%2019.txt)
 ## experiment:21
-https://github.com/Manoj-841/dbms/blob/main/experiment%2021.txt
+advanced sql implementation of hrm data base(https://github.com/Manoj-841/dbms/blob/main/experiment%2021.txt)
 ## experiment:22
 sql queries implementation for book publishing(https://github.com/Manoj-841/dbms/blob/main/book%20publisher)
 
